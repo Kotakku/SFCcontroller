@@ -1,0 +1,39 @@
+#######################################
+# Syntax Coloring Map For SFCcontroller
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SFCcontroller	KEYWORD1
+
+portRegister	KEYWORD1
+bitMask	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+updateButtonState	KEYWORD2
+getButtonPress	KEYWORD2
+getButtonClick	KEYWORD2
+OUTPUTPIN_CHANGE	KEYWORD2
+INPUTPIN_CHANGE	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+BUTTON_A	LITERAL1
+BUTTON_B	LITERAL1
+BUTTON_X	LITERAL1
+BUTTON_Y	LITERAL1
+BUTTON_UP	LITERAL1
+BUTTON_DOWN	LITERAL1
+BUTTON_LEFT	LITERAL1
+BUTTON_RIGHT	LITERAL1
+BUTTON_R	LITERAL1
+BUTTON_L	LITERAL1
+BUTTON_START	LITERAL1
+BUTTON_SELECT	LITERAL1
