@@ -18,6 +18,7 @@ SFCcontroller が現れることを確認してください。
 
 ●使い方
 
+```
   #include <StdSFCcontroller.h>
 
   //インスタンス生成
@@ -36,6 +37,7 @@ SFCcontroller が現れることを確認してください。
     //ボタンの状態更新(必須)
     updateButtonState();
   }
+```
 
 ●その他関数
   bool getButtonPress(uint8_t button);
