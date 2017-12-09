@@ -40,12 +40,13 @@ SFCcontroller が現れることを確認してください。
 ```
 
 ●その他関数
-  bool getButtonPress(uint8_t button);
+  `bool getButtonPress(uint8_t button);`
     指定されたボタンが押されていればtrueを返す
-  bool getButtonClick(uint8_t button);
+  `bool getButtonClick(uint8_t button);`
     指定されたボタンが押されたらtrueを返す
 
   なお、引数に指定するボタンの識別子はヘッダファイル内で下のように定義してあります
+  ```
   enum buttoneNum
   {
     BUTTON_B,
@@ -61,6 +62,7 @@ SFCcontroller が現れることを確認してください。
     BUTTON_L,
     BUTTON_R
   };
+  ```
 
 ●プログラム例
   Click_test
@@ -71,6 +73,7 @@ SFCcontroller が現れることを確認してください。
     上二つの関数の引数に変数を与えるデモ
 
 ●コントローラーのピンの名前と大まかな役割
+```
    ┌----------┬--------
    | V C P D1 | D2 S G |
    └----------┴--------┘
@@ -81,6 +84,7 @@ SFCcontroller が現れることを確認してください。
    D2 = Data2 (output from SFCcontroller)
    S  = Select (?)
    G  = GND
+```
 
    なお、このライブラリではD2ピンとSピンは使うことを想定していません
 
